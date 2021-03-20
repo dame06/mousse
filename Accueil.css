@@ -1,0 +1,213 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+
+}
+.navbar{
+	width: 1340px;
+	position: fixed;
+	background-color: crimson;
+}
+.navbar .max-width{
+	width: 1340px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 20px auto;
+}
+.logo a{
+
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+
+}
+.logo a span{
+	color: #000;
+
+}
+.menu{
+	padding-top: 20px;
+}
+.menu li{
+	display: inline-block;
+
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: 1s;
+
+
+
+}
+.galerie{
+	margin-right: 100px;
+}
+.sous{
+	display: none;
+	position: absolute;
+	width: 200px;
+
+
+}
+.menu li:hover .sous{
+	display: block;
+}
+.sous li{
+	width:100%;
+	text-align: center;
+	margin-right: 50px;
+	
+	
+
+
+}
+
+.menu li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.home{
+		height: 800px;
+	background: url('wp5867858-coronavirus-covid-19-wallpapers.jpg');
+	display: flex;
+	width: 1340px;
+}
+.log{
+	width: 70px;
+	height: 50px;
+}
+.home .max-width{
+	color: white;
+	margin: 120px;
+}
+.home .home-content .text-1{
+	font-size: 40px;
+	font-weight: 600px;
+
+}
+.home .home-content .text-2{
+	color: crimson;
+	font-size: 60px;
+	font-weight: 600px;
+	
+}
+.home .home-content {
+	padding-top: 200px;
+}
+	.home .home-content .text-3{
+	font-size: 50px;
+	font-weight: 600px;
+	
+}
+.home .home-content .text-3 span{
+	color: crimson;
+	
+	
+}
+.section2{
+	display: flex;
+	height: 500px;
+	width: 1340px;
+	margin-top: 20px;
+	background: url('wp5867888-coronavirus-covid-19-wallpapers.jpg');
+}
+.child-1{
+	width: 30%;
+	height: 500px;
+margin-right: 10px;
+	background-color: ;
+
+}
+.child-2{
+	width: 30%;
+	height: 500px;
+margin-right: 10px;
+	background-color:;
+
+}
+.child-3{
+	width: 30%;
+	height: 500px;
+	margin-right: 10px;
+	
+
+}
+.img1{
+	height: 300px;
+	width: 300px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding-top: 50px;
+}
+img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+h2:hover{
+	transform: scale(1.2);
+	transition: 1s;
+}
+
+.text1{
+	margin-left: 100px;
+	font-size: 40px;
+}
+
+
+.fin{
+	color:#020528 ;
+	background-color:#077B70;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.table2{
+	height: 100px;
+	padding-bottom: 200px;
+	width: 100%;
+	
+}
+.texterea{
+height: 150px;
+width: 200px;
+}
+.section4{
+	background-color:020528;
+	height: 400px;
+}
+.get{
+	color: black;
+}
+.text4{
+	color: ;
+}
+
+.button4{
+	background-color: pink;
+}
+.fin{
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	text-align: center;
+
+}
